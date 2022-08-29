@@ -64,3 +64,7 @@ jobs:
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           port: ${{ secrets.ftp_port }}
+
+      - name: aliyun-oss-website-action
+      uses: fangbinwei/aliyun-oss-website-action@v1.3.0
+  
